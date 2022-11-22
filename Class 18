@@ -1,0 +1,42 @@
+#def SumMajorDiagonal(n):
+  #  sum = 0
+#    for i in range (lens)
+
+#input_matrix=[]
+#row= 4
+#col = 3
+
+#for j in range(row):
+#    input_string = input("Enter a 4 by 4 matrix row for row: + str(j + 1) +": ")
+#    items = input_string.split()
+#    number_list = [eval(x) for x in items]
+#    input_matrix.append(number_list)
+
+#print("Sum of the elements of the major diagonal is", sumMajorDiagonal(input_matrix))
+#not the same below
+#def sumMajorDiagonal(m):
+ #   res = 0
+#    for i in range(len(m)):
+ #       res += float(m[i][i])
+ #   return res
+    
+#m =[]
+#row = 4
+
+#for _ in range(row):
+ #   s = input()
+ #   r = s.split()
+   # m.append(r)
+
+#print(sumMajorDiagonal(m))
+import random
+
+m = []
+mat_len = 4
+for r in range(mat_len):
+    m.append([])
+    for c in range(mat_len):
+        m[r].append(random.randint(0, 1))
+print(m)
+for i in range(mat_len):
+    print(sum(m[i]))
