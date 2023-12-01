@@ -1,1 +1,1 @@
-# All-your-codebase-are-belong-to-us
+# Intro to Python class projects
